@@ -1,3 +1,7 @@
+<?php
+require 'connection.php'
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +74,7 @@
    
 
 <?php
-$con = mysqli_connect("localhost","root","","Database");
+
 
 if(isset($_POST['sb']))
 {
