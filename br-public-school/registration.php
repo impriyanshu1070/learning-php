@@ -1,59 +1,12 @@
 <?php
 require 'connection.php'
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>BR Public School</title>
-    <style>
-        body{
-            background:#f2f2f2;
-            font-family: Arial;
-        }
-        .container{
-            width:400px;
-            margin:80px auto;
-            background:white;
-            padding:20px;
-            border-radius:8px;
-            box-shadow:0 0 10px gray;
-        }
-        h1{
-            text-align:center;
-        }
-        label{
-            font-weight:bold;
-            display:block;
-            margin-top:10px;
-        }
-        input{
-            width:100%;
-            padding:8px;
-            margin-top:5px;
-        }
-        button{
-            width:100%;
-            margin-top:15px;
-            padding:10px;
-            background:#0d6efd;
-            color:white;
-            border:none;
-            cursor:pointer;
-        }
-        .msg{
-            text-align:center;
-            margin-top:10px;
-            color:green;
-            font-weight:bold;
-        }
-        a{
-            display:block;
-            text-align:center;
-            margin-top:10px;
-        }
-    </style>
-   </head>
+    <link rel="stylesheet" href="registration.css" />
+</head>
 
    <body>
 
